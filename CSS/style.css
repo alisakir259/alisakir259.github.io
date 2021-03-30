@@ -1,0 +1,244 @@
+body {
+    background-color: #16A086;
+    margin: 0;
+    font-family: Helvetica;
+    color: white;
+    scroll-behavior: smooth;
+    padding-bottom: 50px;
+}
+
+.container {
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    text-shadow: 10px black;
+}
+
+
+.container h1 {
+    text-shadow: 4px 2px 15px black;
+	text-align: center;
+}
+
+
+#circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: url('../image/image.jpg') center;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    border: 8px solid #0F6177;
+    margin-bottom: 15px;
+	margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.table-profile {
+    width: 100%;
+}
+
+.title {
+    background-color: #0F6177;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    min-width: 300px;
+    text-align: center;
+}
+
+
+.profile {
+    width: 50%;
+}
+
+.table-profile td {
+    vertical-align: top;
+    padding: 15px;
+}
+
+.table .profile h1 {
+	margin-top: 0;
+}
+
+.profile .data-diri {
+    background-color: white;
+    color: #333333;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+}
+
+
+.data-diri td {
+    padding: 10px;
+      
+}
+
+.data-diri .kolom1 {
+	padding-left: 20px;
+}
+
+.data-diri .kolom2 {
+	margin-left: 0;
+}
+
+
+.skill .content {
+    background-color: white;
+    color: #333333;
+    padding: 15px;
+    border-radius: 10px;
+    height: 270px;
+}
+
+.skill ul {
+    margin: 0;
+    list-style: none;
+}
+
+.skill li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid #f1f1f1;
+}
+
+.skill .level {
+    background-color: #0F6177;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.table {
+    margin-top: 15px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th {
+    background-color: #0B8389;
+    padding: 10px 15px;
+}
+
+.table td {
+    padding: 10px 15px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.sosmed {
+	position: relative;
+	z-index:9;
+	width: 100%;
+	text-align: center;
+	bottom: 0;
+	margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.isi-sosmed {
+	height: 50px;
+	width:20%;
+	margin-left: auto;
+	margin-right: auto;
+	padding:2px ;
+	color:#fff;
+	/* margin:5px auto; */
+    background: #0F6177;
+	border-radius: 15px;
+	/* background: #504a4a; */
+	text-align: center;
+	/* display: inline-block; */
+}
+
+.isi-sosmed a img {
+	margin-top: 6px;
+	margin-right: 6px;
+	max-width: 40px;
+}
+
+
+.fotoku {
+	height: 300px;
+	width: 300px;
+	padding: 9px;
+}
+
+.dokumentasi .foto {
+    margin-left: 114px;
+    margin-right: 114px;
+	background-color: white;
+}
+
+h1 {
+    text-shadow: 4px 2px 15px black;
+}
+
+.dokumentasi h2 {
+    text-shadow: 4px 2px 15px black;
+}
+
+.tugaskuliah {
+    margin-top: 15px;
+}
+
+.tugaskuliah form {
+    background-color: white;
+    width: 70%;
+    border-radius: 10px;
+    color: black;
+    padding: 15px;
+}
+
+.tugaskuliah form label {
+    margin: 20px;
+    color: black;
+}
+
+.tombol {
+    margin-top: 20px;
+}
+
+.tugaskuliah form p {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.tugaskuliah .hasil {
+    margin: 20px;
+    text-align: center;
+}
+
+.hasil td {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#a , #b , #c, #button {
+    width: 100px;
+}
+
+
+
+
+

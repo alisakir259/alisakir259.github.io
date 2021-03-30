@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" manifest="latihan.appcache">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi Mahasiswa</title>
+    <link rel="stylesheet" href="tugas-oop.css">
+</head>
+<body>
+    <!----Tugas Form Registrasi-->
+    
+    <div class="container">
+        <div class="tugaskuliah">
+            <center>
+            <h1 class="title">
+                Tugas OOP dan Getter & Setter <br>
+                Form Registrasi Mahasiswa
+            </h1>
+            </center>
+
+            <table class="table-profile">
+                <tr>
+                    <!---Form Registrasi-->
+                    <td class="profile">
+                        <h1 class="title">Form Registrasi</h1>
+                        <form id='form'>    
+                            <table class="form-regis">      
+                                <tr>
+                                    <td><label for="nama">Nama :</label><label class="Validation-error hide" id="NameValidationError"></label></td>
+                                    <td><input type="text" id="nama"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="nim">NIM :</label></td>
+                                    <td><input type="text" id="nim"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="prodi">Program Studi :</label></td>
+                                    <td><input type="text" id="prodi"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="email">Email :</label></td>
+                                    <td><input type="text" id="email"></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><button id="btnTambah" type="submit">Daftar</button></td>
+                                </tr>
+                                </table>
+                        </form>
+                    </td>
+
+                    <!--List Mahasiswa Terdaftar-->
+                    <td class="profile">
+                        <h1 class="title">List Mahasiswa Terdaftar</h1>
+                        <div class="form-list">
+                            <table class="data">
+                                <thead>
+                                    <tr>
+                                        <th>Nama</th>
+                                        <th>NIM</th>
+                                        <th>Program Studi</th>
+                                        <th>Email</th>
+                                   
+                                    </tr>
+                                </thead>
+                                <tbody id="tabel">
+                                </tbody>
+                            </table>
+                        
+                        <div id='pesan'> </div>
+                       
+                        </div>
+                    </td>
+        
+                </tr>
+            </table>
+            
+        </div>
+    </div>
+   
+</body>
+<script src="tugas-oop.js"></script>
+</html>
