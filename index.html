@@ -8,7 +8,6 @@
    
 </head>
 <body> 
-    <script src="script.js"></script>
     <section>
     <div class="container">
         <div>
@@ -27,9 +26,22 @@
         <!---Tombol Tugas-->
         <center>
         <h1 class="title">
+            <a href="hitungnilai.html">
+                Tugas Aplikasi Hitung Nilai
+            </a>
+        </h1>
+        <br>
+        <h1 class="title">
             <a href="tugas-oop.html">
             Tugas OOP dan Getter & Setter <br>
             Form Registrasi Mahasiswa 
+            </a>
+        </h1>
+        <br>
+        <h1 class="title">
+            <a href="tugas-covid19.html">
+            Tugas Aplikasi <br>
+            Pantau Perkembangan Covid-19
             </a>
         </h1>
         </center>
@@ -198,55 +210,13 @@
         <h1 class="title">Dokumentasi</h1>
         </center>
         <div class="foto">
-            <img class="fotoku" src="./image/alisa.JPG" alt="">
-            <img class="fotoku" src="/image/alisa1.jpg" alt="">
-            <img class="fotoku" src="/image/alisa2.jpg" alt="">
-            <img class="fotoku" src="/image/alisa3.jpg" alt="">
+            <img class="fotoku" src="image/alisa.JPG" alt="">
+            <img class="fotoku" src="image/alisa1.JPG" alt="">
+            <img class="fotoku" src="image/alisa2.JPG" alt="">
+            <img class="fotoku" src="image/alisa3.JPG" alt="">
         </div>
     </div>
 
-    <div class="tugaskuliah">
-        <center>
-        <h1 class="title">
-            Latihan 1 Javascript <br>
-            Aplikasi Hitung Nilai
-        </h1>
-        
-        <form>
-            <h4>Program di bawah ini akan menghitung nilai rata-rata, nilai tertinggi, nilai terendah, dan nilai tengah dari 3 angka yang diinput </h4> 
-            <label>Angka Pertama :</label> <input type="text" name="" id="a">
-            <label>Angka Kedua :</label> <input type="text" name="" id="b">
-            <label>Angka Ketiga :</label> <input type="text" name="" id="c">
-            <br>
-            <input id="button" type="button" onclick=hitung() value="Hitung" class="tombol">
-            <input id="button" type="button" onclick=hapus() value="Hapus" class="tombol">
-            
-            <p>Hasil Perhitungan</p>
-            <table class="hasil">
-                <tr>
-                    <td>Nilai Rata-Rata</td>
-                    <td>Nilai Tertinggi</td>
-                </tr>
-                <tr>
-                    <td><p id="rata" ></p></td>
-                    <td><p id="nilai_max" ></p></td>
-                </tr>
-                <tr>
-                    <td>Nilai Terendah</td>
-                    <td>Nilai Tengah</td>
-                </tr>
-                <tr>
-                    <td><p id="nilai_min" ></p></td>
-                    <td><p id="median" ></p></td>
-                </tr>
-            </table>
-            
-        </form>
-        </center>
-        
-    </div>
-
-    
     
 </body>
 </html>

@@ -127,5 +127,7 @@ function hapusBaris(e) {
     if (e.target.type == 'button') {
         tabel.deleteRow(tabel.rows.namedItem(e.target.id).sectionRowIndex);
         hapusDariDatabase(e.target.id);
+    } else {
+        
     }
 }

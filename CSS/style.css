@@ -163,12 +163,9 @@ a {
 	margin-right: auto;
 	padding:2px ;
 	color:#fff;
-	/* margin:5px auto; */
     background: #0F6177;
 	border-radius: 15px;
-	/* background: #504a4a; */
 	text-align: center;
-	/* display: inline-block; */
 }
 
 .isi-sosmed a img {
@@ -194,26 +191,6 @@ h1 {
     text-shadow: 4px 2px 15px black;
 }
 
-.dokumentasi h2 {
-    text-shadow: 4px 2px 15px black;
-}
-
-.tugaskuliah {
-    margin-top: 15px;
-}
-
-.tugaskuliah form {
-    background-color: white;
-    width: 70%;
-    border-radius: 10px;
-    color: black;
-    padding: 15px;
-}
-
-.tugaskuliah form label {
-    margin: 20px;
-    color: black;
-}
 
 .tombol {
     margin-top: 20px;

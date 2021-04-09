@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Aplikasi Hitung Nilai</title>
+    <link rel="stylesheet" href="hitungnilai.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="container">
+        <div class="tugaskuliah">
+        <center>
+        <h1 class="title">
+            Tugas Aplikasi Hitung Nilai
+        </h1>
+        
+        <form>
+            <h4>Program di bawah ini akan menghitung nilai rata-rata, nilai tertinggi, nilai terendah, dan nilai tengah dari 3 angka yang diinput </h4> 
+            <label>Angka Pertama :</label> <input type="text" name="" id="a">
+            <label>Angka Kedua :</label> <input type="text" name="" id="b">
+            <label>Angka Ketiga :</label> <input type="text" name="" id="c">
+            <br><br>
+            <input id="button" type="button" onclick=hitung() value="Hitung" class="tombol">
+            <input id="button" type="button" onclick=hapus() value="Hapus" class="tombol">
+            <br>
+            <h3>Hasil Perhitungan</h3>
+            <table class="hasil">
+                <tr>
+                    <td><h3>Nilai Rata-Rata</h3></td>
+                    <td><h3>Nilai Tertinggi</h3></td>
+                </tr>
+                <tr>
+                    <td><p id="rata" ></p></td>
+                    <td><p id="nilai_max" ></p></td>
+                </tr>
+                <tr>
+                    <td><h3>Nilai Terendah</h3></td>
+                    <td><h3>Nilai Tengah</h3></td>
+                </tr>
+                <tr>
+                    <td><p id="nilai_min" ></p></td>
+                    <td><p id="median" ></p></td>
+                </tr>
+            </table>
+            
+        </form>
+        </center>
+    </div>
+    </div>
+    
+    
+    
+</body>
+</html>

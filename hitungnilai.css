@@ -1,0 +1,66 @@
+body {
+    background-color: #16A086;
+    margin: 0;
+    font-family: Helvetica;
+    color: white;
+    scroll-behavior: smooth;
+    padding-bottom: 50px;
+}
+
+.container {
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-shadow: 10px black;
+}
+
+.container h1 {
+    text-shadow: 4px 2px 15px black;
+	text-align: center;
+}
+
+
+.title {
+    background-color: #0F6177;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    min-width: 300px;
+    text-align: center;
+}
+
+.tugaskuliah {
+    margin-top: 15px;
+    
+}
+
+.tugaskuliah form {
+    background-color: white;
+    width: 70%;
+    border-radius: 10px;
+    color: black;
+    padding: 15px;
+}
+
+.tugaskuliah form label {
+    margin: 20px;
+    color: black;
+}
+
+p {
+    text-align: center;
+    
+}
+
+h3 {
+    text-align: center;
+}
