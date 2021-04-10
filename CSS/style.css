@@ -7,7 +7,7 @@ body {
     padding-bottom: 50px;
 }
 
-header {
+.header {
     background-color: #0F6177;
     margin-top: 0;
     padding: 30px;
@@ -224,7 +224,7 @@ h1 {
     width: 100px;
 }
 
-footer {
+.footer {
     background-color: #0F6177;
     margin-top: 100px;
     padding: 30px;  
