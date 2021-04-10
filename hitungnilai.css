@@ -28,11 +28,7 @@ body {
     display: inline-block;
     padding: 10px 20px;
     margin: 0;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-bottom: 15px;
+    border-radius: 10px;
     font-size: 20px;
     min-width: 300px;
     text-align: center;
@@ -63,4 +59,18 @@ p {
 
 h3 {
     text-align: center;
+}
+
+.home {
+    font-size: 20px;
+    background-color: #0F6177;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }

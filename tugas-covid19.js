@@ -2,19 +2,18 @@ $.getJSON('https://covid19.mathdro.id/api', function(data){
     let positif = data.confirmed.value;
     let meninggal = data.deaths.value;
     let sembuh = data.recovered.value;
-    let update = data.lastUpdate;
-    document.getElementById('duniapositif').innerHTML = positif;
-    document.getElementById('duniameninggal').innerHTML = meninggal;
-    document.getElementById('duniasembuh').innerHTML = sembuh;
+    document.getElementById('positif-glo').innerHTML = positif;
+    document.getElementById('meninggal-glo').innerHTML = meninggal;
+    document.getElementById('sembuh-glo').innerHTML = sembuh;
 });
 
 $.getJSON('https://covid19.mathdro.id/api/countries/Indonesia',function (data) {
     let positif = data.confirmed.value;
     let meninggal = data.deaths.value;
     let sembuh = data.recovered.value;
-    document.getElementById('indpositif').innerHTML = positif;
-    document.getElementById('indmeninggal').innerHTML = meninggal;
-    document.getElementById('indsembuh').innerHTML = sembuh;
+    document.getElementById('positif-ind').innerHTML = positif;
+    document.getElementById('meninggal-ind').innerHTML = meninggal;
+    document.getElementById('sembuh-ind').innerHTML = sembuh;
 });
 
 $.getJSON('https://covid19.mathdro.id/api/countries/Thailand',function (data) {
